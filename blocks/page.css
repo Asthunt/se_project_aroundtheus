@@ -10,8 +10,8 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 500px) {
   .page {
-    padding: 28px 0 28px;
+    padding: 28px 75px 28px;
   }
 }

@@ -60,7 +60,7 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 500px) {
   .card {
     grid-template-columns: auto;
     max-width: 220px;
