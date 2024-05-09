@@ -1,19 +1,12 @@
 .footer {
   color: gray;
-  top: 1139px;
-  width: 318px;
-  height: 18px;
-  position: absolute;
-}
-
-@media screen and (max-width: 775px) {
-  .footer {
-    top: 1637px;
-  }
+  max-width: 318px;
+  min-height: 18px;
+  margin-top: 45px;
 }
 
 @media screen and (max-width: 320px) {
   .footer {
-    top: 2762px;
+    width: 282px;
   }
 }

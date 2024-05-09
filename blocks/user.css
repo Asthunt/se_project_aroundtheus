@@ -3,8 +3,7 @@
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, 1fr);
   column-gap: 24px;
-  width: 880px;
-  height: 120px;
+  max-width: 880px;
   margin: 50px 0 50px;
   align-items: end;
 }
@@ -25,8 +24,7 @@
 }
 
 .user__name {
-  width: 373px;
-  height: 48px;
+  max-width: 373px;
   margin: 0;
   font-size: 42px;
   font-weight: 500;
@@ -37,8 +35,7 @@
 .user__subtitle {
   grid-column: 2/3;
   grid-row: 2;
-  width: 415px;
-  height: 22px;
+  max-width: 415px;
   margin: 0;
   font-size: 18px;
   line-height: 22px;
@@ -84,10 +81,9 @@
   opacity: 0.7;
 }
 
-@media screen and (max-width: 775px) {
+@media screen and (max-width: 780px) {
   .user {
-    width: 700px;
-    margin: 50px -75px 50px;
+    max-width: 700px;
   }
 
   .user__image {
@@ -96,13 +92,14 @@
   }
 
   .user__name {
-    width: 300px;
-    font-size: 32px;
-    height: 36px;
+    max-width: 300px;
+    font-size: 30px;
+    min-height: 36px;
+    white-space: nowrap;
   }
 
   .user__subtitle {
-    width: 282px;
+    max-width: 282px;
     font-size: 16px;
   }
 
@@ -114,12 +111,12 @@
 
 @media screen and (max-width: 320px) {
   .user {
-    width: 282px;
-    height: 286px;
+    max-width: 282px;
+    min-height: 286px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 50px 0 0;
+    margin: 50px 20px 0;
   }
 
   .user__wrapper {
@@ -127,14 +124,13 @@
   }
 
   .user__name {
-    width: 196px;
-    height: 22px;
+    max-width: 196px;
     font-size: 22px;
     margin-top: 20px;
   }
   .user__subtitle {
-    width: 282px;
-    height: 14px;
+    max-width: 282px;
+
     font-size: 14px;
     margin-top: 10px;
     text-align: center;

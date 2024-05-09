@@ -3,13 +3,12 @@
   grid-template-columns: repeat(3, minmax(282px, 1fr));
   grid-template-rows: auto;
   grid-gap: 1rem;
-  width: 880px;
-  height: 742px;
+  max-width: 880px;
 }
 
 .card__slot {
-  width: 282px;
-  height: 361px;
+  max-width: 282px;
+  min-height: 361px;
   background-color: white;
   border-radius: 5%;
 }
@@ -25,11 +24,10 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 79px;
 }
 
 .card__title {
-  width: 219px;
+  max-width: 219px;
   line-height: 30px;
   font-family: "Inter";
   font-weight: 500;
@@ -54,16 +52,18 @@
   opacity: 0.7;
 }
 
-@media screen and (max-width: 775px) {
+@media screen and (max-width: 780px) {
   .card {
     grid-template-columns: repeat(2, 1fr);
-    width: 600px;
+    max-width: 600px;
+    margin: 0 50px 0;
   }
 }
 
 @media screen and (max-width: 320px) {
   .card {
     grid-template-columns: auto;
-    width: 220px;
+    max-width: 220px;
+    margin-left: 20px;
   }
 }
