@@ -32,3 +32,4 @@ An improvement that can be made on this project is allow users to choose the seq
 https://asthunt.github.io/se_project_aroundtheus/
 
 **Video**
+https://drive.google.com/file/d/1tJwnNI9-KFAFn24z2QRYcWd4M2HXvlKA/view?usp=drive_link
