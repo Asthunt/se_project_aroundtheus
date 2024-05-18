@@ -1,0 +1,29 @@
+.cards {
+  font-family: "Inter", Arial, sans-serif;
+}
+
+.cards__list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 282px);
+  grid-template-rows: auto;
+  grid-gap: 1rem;
+  max-width: 880px;
+  list-style: none;
+  padding: 0;
+}
+
+@media screen and (max-width: 800px) {
+  .cards__list {
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 600px;
+    margin: 0 auto 0;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .cards__list {
+    grid-template-columns: auto;
+    max-width: 282px;
+    margin: auto;
+  }
+}
