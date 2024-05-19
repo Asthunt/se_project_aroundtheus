@@ -60,7 +60,8 @@
 }
 
 .user__edit:hover {
-  opacity: 0.7;
+  cursor: pointer;
+  opacity: 0.6;
 }
 
 .user__add {
@@ -79,7 +80,8 @@
 }
 
 .user__add:hover {
-  opacity: 0.7;
+  cursor: pointer;
+  opacity: 0.6;
 }
 
 @media screen and (max-width: 800px) {
@@ -96,7 +98,6 @@
   .user__name {
     max-width: 300px;
     font-size: 30px;
-    min-height: 36px;
   }
 
   .user__subtitle {

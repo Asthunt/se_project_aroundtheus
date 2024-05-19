@@ -1,5 +1,5 @@
-.footer {
-  color: gray;
+.footer__copyright {
+  color: #545454;
   max-width: 318px;
   min-height: 18px;
   margin-top: 45px;
@@ -7,6 +7,6 @@
 
 @media screen and (max-width: 500px) {
   .footer {
-    width: 282px;
+    max-width: 282px;
   }
 }
