@@ -4,8 +4,11 @@
   grid-template-rows: repeat(2, 1fr);
   column-gap: 24px;
   max-width: 880px;
-  margin: 50px 0 50px;
+  margin: 50px 0 40px;
   align-items: end;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 .user__image {
@@ -21,6 +24,7 @@
   display: flex;
   align-items: center;
   grid-column: 2;
+  margin-top: 40px;
 }
 
 .user__name {
@@ -90,11 +94,6 @@
     margin: 50px auto 50px;
   }
 
-  .user__image {
-    width: 100px;
-    height: 100px;
-  }
-
   .user__name {
     max-width: 300px;
     font-size: 30px;
@@ -122,13 +121,12 @@
   }
 
   .user__wrapper {
-    align-items: center;
+    align-items: baseline;
   }
 
   .user__name {
     max-width: 196px;
     font-size: 22px;
-    margin-top: 20px;
   }
   .user__subtitle {
     max-width: 282px;

@@ -9,7 +9,14 @@
   color: #545454;
   max-width: 318px;
   min-height: 18px;
-  margin-top: 45px;
+  margin-top: 95px;
+}
+
+@media screen and (max-width: 800px) {
+  .footer {
+    margin: 0 auto 0;
+    max-width: 600px;
+  }
 }
 
 @media screen and (max-width: 500px) {
@@ -17,5 +24,6 @@
     max-width: 282px;
     line-height: 19px;
     font-size: 14px;
+    margin: 0 auto 0;
   }
 }

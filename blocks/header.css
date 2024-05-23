@@ -25,6 +25,7 @@
   }
 
   .header__logo {
-    margin-left: 28px;
+    max-width: 126ps;
+    height: 24px;
   }
 }
