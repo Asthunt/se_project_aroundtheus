@@ -6,9 +6,6 @@
   max-width: 880px;
   margin: 50px 0 40px;
   align-items: end;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  overflow: hidden;
 }
 
 .user__image {
@@ -35,6 +32,8 @@
   font-family: "Inter", Arial, sans-serif;
   color: #fff;
   white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 
 .user__subtitle {
@@ -48,6 +47,9 @@
   font-family: "Inter", Arial, sans-serif;
   align-self: start;
   color: #fff;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 .user__edit {
